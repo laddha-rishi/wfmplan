@@ -6,7 +6,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="wfmplan",
-    version="1.2.0",
+    version="1.2.1",
     description="Optimization library for workforce management planning",
     long_description=long_description,
     long_description_content_type='text/markdown',
