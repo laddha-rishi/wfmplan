@@ -23,7 +23,8 @@ setup(
         "Programming Language :: Python :: 3.11",
     ],
     project_urls={
-        "Source Code": "https://github.com/laddha-rishi/wfmplan"
+        "Source Code": "https://github.com/laddha-rishi/wfmplan",
+        "Documentation": "https://medium.com/@laddha.rishi/queueing-up-success-revolutionize-workforce-planning-with-python-6c9d7edbb6cd",
     },
     packages=find_packages(include=['wfmplan', 'wfmplan.*']),
     install_requires=[
