@@ -1,7 +1,6 @@
 # wfmplan
----
+
 **Optimizing Workforce managemet planning :** Our Python library, wfmplan, is designed to streamline workforce planning across industries. It calculates the optimal number of agents required to meet SLA targets for expected incoming traffic, applicable in scenarios such as call centers, customer support, live chat, retail stores, and help desks. By analyzing expected customer interactions and SLA requirements, it enhances planning accuracy, reduces wait times, and improves operational efficiency.
----
 
 ## Features
 
