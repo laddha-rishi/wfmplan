@@ -1,9 +1,16 @@
 from setuptools import setup, find_packages
+from pathlib import Path
+
+# Read the README file for the long description
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="wfmplan",
     version="0.2.2",
-    description=" tools for workforce management optimization",
+    description="Tools for workforce management optimization",
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     url="https://github.com/laddha-rishi/wfmplan",
     author="Rishi Laddha",
     author_email="laddha.rishi@gmail.com",
@@ -25,4 +32,12 @@ setup(
         'pandas>=1.3.5',
     ],
     include_package_data=True,
-) 
+    keywords="workforce management optimization",
+    python_requires='>=3.8',
+    entry_points={
+        'console_scripts': [
+            # Example entry point
+            # 'wfmplan=wfmplan:main',
+        ],
+    },
+)

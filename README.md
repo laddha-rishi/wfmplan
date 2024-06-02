@@ -1,0 +1,3 @@
+#wfmplan
+
+Unleashing Efficiency: Our Python library, is a powerhouse for optimizing workforce planning across industries. It determines the ideal number of agents for call centers, customer support, live chat, retail stores, and service desks. By crunching numbers on expected customer interactions, it's your secret weapon for improving service levels, cutting wait times, and boosting overall operational efficiency. Join us as we dive into this solution using Python's wfmplan package!
