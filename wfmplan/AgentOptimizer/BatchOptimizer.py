@@ -1,5 +1,5 @@
 import pandas as pd
-import Optimizer
+from .Optimizer import Optimizer
 
 class BatchOptimizer:
     def __init__(self, df: pd.DataFrame, operational_targets: dict):
