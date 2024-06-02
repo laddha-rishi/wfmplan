@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="wfmplan",
-    version="0.2.1",
+    version="0.2.2",
     description=" tools for workforce management optimization",
     url="https://github.com/laddha-rishi/wfmplan",
     author="Rishi Laddha",
