@@ -60,7 +60,7 @@ result_df = batch_optimizer.run_optimization()
 print(result_df)
 ```
 
-For more details and advanced usage, refer to the [documentation]([https://medium.com/@laddha.rishi/queueing-up-success-revolutionize-workforce-planning-with-python-6c9d7edbb6cd]).
+For more details and advanced usage, refer to the [documentation](https://medium.com/@laddha.rishi/queueing-up-success-revolutionize-workforce-planning-with-python-6c9d7edbb6cd).
 
 ## License
 
