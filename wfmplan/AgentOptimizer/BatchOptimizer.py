@@ -41,22 +41,3 @@ class BatchOptimizer:
         results_df = results_df[columns_order]
 
         return results_df
-
-# Example usage
-df = pd.DataFrame({
-    'exp_vol': [1000, 1500, 2000],
-    'exp_aht': [300, 200, 250],
-    'interval_start': pd.to_datetime(['2024-06-01 08:00:00', '2024-06-01 09:00:00', '2024-06-01 10:00:00']),
-    'interval_end': pd.to_datetime(['2024-06-01 09:00:00', '2024-06-01 10:00:00', '2024-06-01 11:00:00'])
-})
-
-operational_targets = {
-    'max_occupancy': 0.95,
-    'shrink': 0.1,
-    'asa': 20,
-    'method': 'asa'
-}
-
-batch_optimizer = BatchOptimizer(df, operational_targets)
-result_df = batch_optimizer.run_optimization()
-(result_df)
