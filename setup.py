@@ -28,12 +28,12 @@ setup(
     },
     packages=find_packages(include=['wfmplan', 'wfmplan.*']),
     install_requires=[
-        'numpy>=1.23.0',
+        'numpy>=1.21.6',
         'pandas>=1.3.5',
     ],
     include_package_data=True,
     keywords="workforce management optimization",
-    python_requires='>=3.8',
+    python_requires='>=3.7.12',
     entry_points={
         'console_scripts': [
             'wfmplan=wfmplan:main',
